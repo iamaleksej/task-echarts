@@ -1,0 +1,66 @@
+.header
+   display: flex
+   justify-content: space-between
+   height: 100%
+.wrapper
+   height: 70px
+   background-color: #fff
+.logo
+   display: flex
+   align-items: center
+   span
+      position: relative
+   a
+      color: #7e2d27
+      text-decoration: none
+      font-family: 'Lobster'
+      font-weight: 600
+      font-size: 36px
+      line-height: 45px
+   img
+      position: absolute
+      top: -5px
+      right: -15px
+      width: 20px
+      height: 20px
+.nav
+   display: flex
+   gap: 58px
+   &Item
+      width: 70px
+      text-decoration: none
+      color: rgba(0, 0, 0, 0.6)
+      text-transform: uppercase
+      font-weight: 500
+      font-size: 14px
+      line-height: 16px
+      text-align: center
+      letter-spacing: 1.25px
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      gap: 6.65px
+      cursor: pointer
+      position: relative
+.heart
+   height: 18.350000381469727px
+   width: 20px
+@media only screen and (max-width: 959px)
+   .nav
+      gap: 10px
+      &Item
+         width: 50px
+   .logo a
+      font-size: 25px
+      line-height: 30px
+@media only screen and (max-width: 585px)
+.nav
+   gap: 0px
+   &Item
+      font-size: 12px
+@media only screen and (max-width: 425px)
+   .logo
+      a
+         display: flex
+         flex-direction: column

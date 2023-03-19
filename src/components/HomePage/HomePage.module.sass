@@ -1,0 +1,33 @@
+.wrapper
+   min-height: calc(100vh - 70px)
+   display: flex
+.chart
+   width: 32vw
+   height: 450px
+   @media only screen and (max-width: 1440px)
+      height: 400px
+   @media only screen and (max-width: 1170px)
+      width: 31vw
+   @media only screen and (max-width: 959px)
+      height: 320px
+   @media only screen and (max-width: 585px)
+      height: 250px
+
+.chartSmart
+   @media only screen and (max-width: 585px)
+      height: 320px
+      width: 90vw
+.charts
+   display: flex
+   flex-wrap: wrap
+   align-items: center
+   justify-content: start
+.chartsSmart
+   justify-content: space-around
+
+.container
+   display: flex
+   flex-direction: column
+   gap: 30px
+   height: 100%
+   width: 100vw
